@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ali Yagiz Dizdaroglu</title>
+    <link>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/</link>
+    <description>Recent content in Projects on Ali Yagiz Dizdaroglu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project IV: Implementing Data Assets for Ivy ML framework</title>
+      <link>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_iv/</link>
+      <pubDate>Mon, 12 Sep 2022 11:14:48 -0400</pubDate>
+      
+      <guid>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_iv/</guid>
+      <description>In this grand project I attempted to dive into Ivy&amp;rsquo;s world of AI! This was a joyful of journey that I met new peoples and systems. My responsibility was to implement and format data assets and functions. Though I had to confront various exciting technical situations which had been a great experience-dense boost to me!
+github link:
+https://github.com/unifyai/ivy/pull/1945</description>
+    </item>
+    
+    <item>
+      <title>Project III: House Price Prediction</title>
+      <link>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_iii/</link>
+      <pubDate>Mon, 11 Jul 2022 11:13:32 -0400</pubDate>
+      
+      <guid>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_iii/</guid>
+      <description>The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It&amp;rsquo;s an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. The data split in two-part train and test. The training dataset has target value (home price), the test set doesn&amp;rsquo;t have a target value and it needs to be predicted.
+My progression:
+Data cleaning Feature engineering Regressor selection (XGBoost) Parameter tuning Auto ML attempt Visualization Results github link:</description>
+    </item>
+    
+    <item>
+      <title>Project II: Cell Segmentation and Data Analysis</title>
+      <link>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_ii/</link>
+      <pubDate>Fri, 10 Jun 2022 11:00:59 -0400</pubDate>
+      
+      <guid>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_ii/</guid>
+      <description>This project consists of 2 different solutions to the expected results:
+statistics.csv (cell characteristics and feature analysis) layered/masked images Solution 1, Manual Trained Model:
+Chose a pretty common and robust DL algorithm/model named &amp;ldquo;U-net&amp;rdquo; which is a CNN type. Had to resize the images to 768x768 because of RAM issues. Then converted to original size forming pieces of small images. Size re-conversion is a bit scuffed. For details please see the code.</description>
+    </item>
+    
+    <item>
+      <title>Project I: Text Classification via Twitter</title>
+      <link>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_i/</link>
+      <pubDate>Sat, 09 Nov 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_i/</guid>
+      <description>Abstract:
+Data science and particularly data itself have been a core part of living all along throughout human history. The data once was all about light, sound and scent. As the human civilization developed through ages, this data has now evolved into experiments, observations and thus conclusively numbers. Eventually all these subjects conclude our definition “Knowledge”.
+In today&amp;rsquo;s world, “data” has already begun to be called the new &amp;ldquo;oil&amp;rdquo; of the global industry.</description>
+    </item>
+    
+  </channel>
+</rss>
