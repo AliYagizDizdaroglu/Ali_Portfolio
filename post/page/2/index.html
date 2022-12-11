@@ -151,13 +151,40 @@
     
     <h1 class="f3 near-black">
       <a href="https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_i/" class="link black dim">
-        Project I: Text Classification via Twitter
+        Text Classification via Twitter
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Abstract:
-Data science and particularly data itself have been a core part of living all along throughout human history. The data once was all about light, sound and scent. As the human civilization developed through ages, this data has now evolved into experiments, observations and thus conclusively numbers. Eventually all these subjects conclude our definition “Knowledge”.
-In today&rsquo;s world, “data” has already begun to be called the new &ldquo;oil&rdquo; of the global industry.
+      Steps conducted:
+Text data acquisition using Twitter APIs for a week Preparation of training data Data preprocessing and cleaning Research to find the optimal algorithm in order to classify Eventually decided on Supervised Learning and Naive Bayes Multiclass Classification under 5 distinct categories Obtained 85% accuracy on classification for over 10,000 tweets Abstract:
+Data science and particularly data itself have been a core part of living all along throughout human history.
+    </div>
+  </div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
+        July 9, 2019
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_v/" class="link black dim">
+        Genetical Data Analytics
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Objective: Days to death prediction After the &ldquo;txt to csv&rdquo; data wrangling process:
+Common procedures throughout 2 models(XGBoost, RandomForest):
+dropping demographic_id as it is unique to person and no use for us
+dropping age_at_diagnosis, we have the same as days_to_birth
+changing paper_clinical_stage to number respectively (1,2,3,4)
+changing vital_status to number respectively (0,1)
+finding current age = days_to_birth / -365.24
+had to convert to int indirectly (&ldquo;vital_status&rdquo;, &ldquo;paper_clinical_stage&rdquo;)
+dropping dead with unknown year_of_death as it makes no sense
     </div>
   </div>
 

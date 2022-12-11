@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project IV: Implementing Data Assets for Ivy ML framework</title>
+      <title>Implementing Data Assets for Ivy ML framework</title>
       <link>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_iv/</link>
       <pubDate>Mon, 12 Sep 2022 11:14:48 -0400</pubDate>
       
@@ -19,18 +19,7 @@ https://github.com/unifyai/ivy/pull/1945</description>
     </item>
     
     <item>
-      <title>Project III: House Price Prediction</title>
-      <link>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_iii/</link>
-      <pubDate>Mon, 11 Jul 2022 11:13:32 -0400</pubDate>
-      
-      <guid>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_iii/</guid>
-      <description>The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It&amp;rsquo;s an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. The data split in two-part train and test. The training dataset has target value (home price), the test set doesn&amp;rsquo;t have a target value and it needs to be predicted.
-My progression:
-Data cleaning Feature engineering Regressor selection (XGBoost) Parameter tuning Auto ML attempt Visualization Results github link:</description>
-    </item>
-    
-    <item>
-      <title>Project II: Cell Segmentation and Data Analysis</title>
+      <title>Cell Segmentation and Data Analysis</title>
       <link>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_ii/</link>
       <pubDate>Fri, 10 Jun 2022 11:00:59 -0400</pubDate>
       
@@ -41,14 +30,42 @@ Chose a pretty common and robust DL algorithm/model named &amp;ldquo;U-net&amp;r
     </item>
     
     <item>
-      <title>Project I: Text Classification via Twitter</title>
+      <title>House Price Prediction</title>
+      <link>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_iii/</link>
+      <pubDate>Sun, 11 Jul 2021 11:13:32 -0400</pubDate>
+      
+      <guid>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_iii/</guid>
+      <description>The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It&amp;rsquo;s an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. The data split in two-part train and test. The training dataset has target value (home price), the test set doesn&amp;rsquo;t have a target value and it needs to be predicted.
+My progression:
+Data cleaning Feature engineering Regressor selection (XGBoost) Parameter tuning Auto ML attempt Visualization Results github link:</description>
+    </item>
+    
+    <item>
+      <title>Text Classification via Twitter</title>
       <link>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_i/</link>
       <pubDate>Sat, 09 Nov 2019 10:58:08 -0400</pubDate>
       
       <guid>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_i/</guid>
-      <description>Abstract:
-Data science and particularly data itself have been a core part of living all along throughout human history. The data once was all about light, sound and scent. As the human civilization developed through ages, this data has now evolved into experiments, observations and thus conclusively numbers. Eventually all these subjects conclude our definition “Knowledge”.
-In today&amp;rsquo;s world, “data” has already begun to be called the new &amp;ldquo;oil&amp;rdquo; of the global industry.</description>
+      <description>Steps conducted:
+Text data acquisition using Twitter APIs for a week Preparation of training data Data preprocessing and cleaning Research to find the optimal algorithm in order to classify Eventually decided on Supervised Learning and Naive Bayes Multiclass Classification under 5 distinct categories Obtained 85% accuracy on classification for over 10,000 tweets Abstract:
+Data science and particularly data itself have been a core part of living all along throughout human history.</description>
+    </item>
+    
+    <item>
+      <title>Genetical Data Analytics</title>
+      <link>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_v/</link>
+      <pubDate>Tue, 09 Jul 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://AliYagizDizdaroglu.github.io/Ali_Portfolio/post/project_v/</guid>
+      <description>Objective: Days to death prediction After the &amp;ldquo;txt to csv&amp;rdquo; data wrangling process:
+Common procedures throughout 2 models(XGBoost, RandomForest):
+dropping demographic_id as it is unique to person and no use for us
+dropping age_at_diagnosis, we have the same as days_to_birth
+changing paper_clinical_stage to number respectively (1,2,3,4)
+changing vital_status to number respectively (0,1)
+finding current age = days_to_birth / -365.24
+had to convert to int indirectly (&amp;ldquo;vital_status&amp;rdquo;, &amp;ldquo;paper_clinical_stage&amp;rdquo;)
+dropping dead with unknown year_of_death as it makes no sense</description>
     </item>
     
   </channel>
